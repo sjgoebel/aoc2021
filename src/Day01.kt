@@ -4,6 +4,7 @@ fun main() {
         val numList = input.map { Integer.parseInt(it) }
 
         var index = 0
+
         while (index < numList.size - 1) {
             if (numList[index + 1] > numList[index]) {
                 result++
